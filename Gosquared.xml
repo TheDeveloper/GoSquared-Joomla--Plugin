@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install version="1.5.0" type="plugin" group="system">
+	<name>GoSquared Plugin</name>
+	<creationDate>04/07/2010</creationDate>
+	<author>Aaron Parker / Geoff Wagstaff</author>
+	<authorEmail>support@gosquared.com</authorEmail>
+	<authorURL>http://www.gosquared.com/</authorURL>
+	<copyright>Copyright (C) 2010 All Rights Reserved</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>1.5.0</version>
+	<description>This plugin appends the necessary code to your Joomla! pages to allow you to use GoSquared's web applications to track your traffic. Please go to Extensions >> Plugin Manager to enable and configure the plugin with your tracking code from your account. If you do not already have an account please go to www.gosquared.com/livestats to get one.</description>
+	<files>
+		<filename plugin="Gosquared">Gosquared.php</filename>
+		<filename>Gosquared.xml</filename>
+	</files>
+	<params>
+		<param name="acct" type="text" default="GSN-000000-X" label="Your Site Account Code" description="This is the tracking code in the format GSN-000000-X which can be found in the SiteManager for your Site. If you do not already have an account please go to http://www.gosquared.com/livestats to sign up."/>
+		<param name="runAdmin" type="radio" default="1" label="Track Admin Pages" description="This option allows you to choose whether you want LiveStats tracking enabled for the Joomla! admin pages (that is anything in yoursite.com/administrator/)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="name" type="radio" default="2" label="Name Display Type" description="This option controls how your users are labelled in LiveStats. Choose Off to use the default LiveStats ID, choose User ID to use the user's Joomla! ID, choose Username to use the user's Joomla! username and choose Real Name to use the user's real name">
+			<option value="0">Off</option>
+			<option value="1">User ID</option>
+			<option value="2">Username</option>
+			<option value="3">Real Name</option>
+		</param>
+	</params>
+</install>
