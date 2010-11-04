@@ -8,7 +8,7 @@
 	<authorURL>http://www.gosquared.com/</authorURL>
 	<copyright>Copyright (C) 2010 All Rights Reserved</copyright>
 	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
-	<version>1.5.0</version>
+	<version>0.2</version>
 	<description>This plugin appends the necessary code to your Joomla! pages to allow you to use GoSquared's web applications to track your traffic. Please go to Extensions >> Plugin Manager to enable and configure the plugin with your tracking code from your account. If you do not already have an account please go to www.gosquared.com/livestats to get one.</description>
 	<files>
 		<filename plugin="Gosquared">Gosquared.php</filename>

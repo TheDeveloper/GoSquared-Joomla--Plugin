@@ -1,7 +1,7 @@
 <?php
 /**
  * GoSquared Plugin for Joomla!
- * @version		0.1.2
+ * @version		0.2
  * @copyright   Copyright (C) 2010 GoSquared Ltd. All rights reserved.
  * @author		Aaron Parker <parkeyparker@gmail.com> and Geoff Wagstaff <geoff@gosquared.com>
  * @license		GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
