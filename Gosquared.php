@@ -39,6 +39,7 @@ class plgSystemGosquared extends JPlugin {
 			$buffer = JResponse::getBody();
 			//If the user is not a guest then find their username
 			$user =& JFactory::getUser();
+			$GSUsername = '';
 			if(!$user->guest && $name != 0) {
 				//name->0 is ID; name->1 is username; name->2 is real name
 				switch ($name) {
@@ -68,7 +69,7 @@ class plgSystemGosquared extends JPlugin {
 					GoSquared.acct = "' . $acct . '";
 					GoSquared.TrackDelay = 0;
 					';
-					if($GSUsername) {
+					if($GSUsername != '') {
 						$GSJavascript .= 'GoSquared.VisitorName = "' . $GSUsername . '";
 						';
 					}
